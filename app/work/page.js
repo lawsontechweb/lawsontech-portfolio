@@ -36,7 +36,7 @@ export default function Work() {
                 <p>Most local searches happen on mobile. A site that loads slow or buries the phone number costs the business real leads before the phone ever rings.</p>
               </div>
               <div className="case-cta">
-                <a href="https://rooted-grounds-landscaping.vercel.app" target="_blank" rel="noreferrer" className="btn-ghost">View Live Demo →</a>
+                <a href="https://rooted-grounds-landscaping-446v.vercel.app" target="_blank" rel="noreferrer" className="btn-ghost">View Live Demo →</a>
               </div>
             </div>
           </div>
