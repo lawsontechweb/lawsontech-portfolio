@@ -36,7 +36,7 @@ export default function Work() {
                 <p>Most local searches happen on mobile. A site that loads slow or buries the phone number costs the business real leads before the phone ever rings.</p>
               </div>
               <div className="case-cta">
-                <a href="#" className="btn-ghost">View Live Demo →</a>
+                <a href="https://rooted-grounds-landscaping.vercel.app" target="_blank" rel="noreferrer" className="btn-ghost">View Live Demo →</a>
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function Work() {
                <p>Every extra tap or phone call between &ldquo;interested&rdquo; and &ldquo;booked&rdquo; loses customers. A fast, on-site reservation form keeps that decision moving instead of stalling it.</p>
               </div>
               <div className="case-cta">
-                <a href="#" className="btn-ghost">View Live Demo →</a>
+                <a href="https://cafe-marlow.vercel.app" target="_blank" rel="noreferrer" className="btn-ghost">View Live Demo →</a>
               </div>
             </div>
           </div>
