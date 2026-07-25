@@ -24,6 +24,9 @@ export const metadata = {
   title: "LawsonTech | Web Design for Local Businesses",
   description:
     "Fast, mobile-first websites for local businesses — built by a Business Analytics student who also sets up the tracking to show what's working.",
+  verification: {
+    google: "l0SiT4I-TE6KczfH7Ed8gT8AFbksjU7l-nMW_rj_Ccw",
+  },
 };
 
 export default function RootLayout({ children }) {
