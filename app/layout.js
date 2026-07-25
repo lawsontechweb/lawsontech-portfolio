@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
         className={`${spaceGrotesk.variable} ${inter.variable} ${plexMono.variable}`}
       >
         <Nav />
-        {children}
+        <main>{children}</main>
         <footer>
           <div className="wrap footer-inner">
             <div className="footer-links">
