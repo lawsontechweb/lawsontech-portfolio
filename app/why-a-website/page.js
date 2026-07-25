@@ -1,6 +1,14 @@
 import Link from "next/link";
 import BeforeAfterSlider from "./BeforeAfterSlider";
+export const metadata = {
+  title: "Why Your Business Needs a Website",
+  description:
+    "Still relying on Facebook or Yelp alone? See why a real website builds more trust and converts more customers than social pages for your business.",
+};
 
+export default function WhyAWebsitePage() {
+  // your existing code
+}
 function FacebookMock() {
   return (
     <div className="mock-fb">

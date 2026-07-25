@@ -1,5 +1,11 @@
 import ContactForm from "./ContactForm";
 
+export const metadata = {
+  title: "Contact",
+  description:
+    "Ready to get a website for your business? Reach out to LawsonTech for a quote, no pressure, just a quick conversation about what you need.",
+};
+
 export default function Contact() {
   return (
     <section className="section-tint-indigo">
