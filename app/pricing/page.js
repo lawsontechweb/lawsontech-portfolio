@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Pricing",
+  description:
+    "Simple, transparent website pricing for small businesses: Starter, Growth, and Premium packages starting at $300, with add-ons available.",
+};
+
 export default function Pricing() {
   return (
     <>

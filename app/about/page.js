@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "About",
+  description:
+    "Meet the person behind LawsonTech: a Business Analytics student building websites that combine clean design with real performance data.",
+};
+
 export default function About() {
   return (
     <section className="section-tint-teal">

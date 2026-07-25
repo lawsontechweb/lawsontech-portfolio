@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Our Work",
+  description:
+    "See LawsonTech's recent web design work, including Rooted Grounds Landscaping and Café Marlow, two custom small business sites built to convert visitors into customers.",
+};
+
 export default function Work() {
   return (
     <>

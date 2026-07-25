@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "Website Analytics",
+  description:
+    "LawsonTech doesn't just build your site, it tracks what's working. See how data-driven analytics help your small business make smarter decisions.",
+};
+
 export default function Analytics() {
   return (
     <>
