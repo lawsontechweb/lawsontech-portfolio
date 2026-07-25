@@ -199,9 +199,10 @@ section { padding: 76px 0; }
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
 @media (max-width: 860px) { .about-grid { grid-template-columns: 1fr; } }
 .about-photo {
-  aspect-ratio: 4/5; border-radius: 8px; background: linear-gradient(150deg, var(--teal), var(--teal-deep));
+  aspect-ratio: 4/5; border-radius: 8px; background: linear-gradient(150deg, #9b7fd4, #6b4fb0);
   display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);
   font-family: var(--font-mono), monospace; font-size: 0.8rem;
+  overflow: hidden;
 }
 .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
 .skill-tag {
