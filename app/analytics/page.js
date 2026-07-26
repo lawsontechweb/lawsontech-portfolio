@@ -90,12 +90,10 @@ export default function Analytics() {
             <div className="eyebrow">The Package</div>
             <h2>Monthly Analytics &amp; Reporting</h2>
            <p>
-              For clients who want more than a site that just sits there,
-              I set up Google Analytics and a simple monthly dashboard so you
-              always know what&rsquo;s working. This is the same skill set
-              behind every project above, just pointed at your business
-              instead of a class project.
-            </p>
+  For clients who want more than a site that just sits there,
+  I set up Google Analytics and a simple monthly dashboard so you
+  always know what&rsquo;s working.
+</p>
           </div>
         </div>
       </section>
