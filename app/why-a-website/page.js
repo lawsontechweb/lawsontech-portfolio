@@ -1,26 +1,33 @@
 import Link from "next/link";
+import Image from "next/image";
 import BeforeAfterSlider from "./BeforeAfterSlider";
+
 export const metadata = {
   title: "Why Your Business Needs a Website",
   description:
     "Still relying on Facebook or Yelp alone? See why a real website builds more trust and converts more customers than social pages for your business.",
 };
 
-
 function FacebookMock() {
   return (
     <div className="mock-fb">
       <div className="mock-fb-cover">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1558904541-efa843a96f01?fm=jpg&q=70&w=1200&auto=format&fit=crop"
           alt=""
+          fill
+          sizes="400px"
+          style={{ objectFit: "cover" }}
         />
       </div>
       <div className="mock-fb-header">
         <div className="mock-fb-avatar">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1592595896616-c37162298647?fm=jpg&q=70&w=200&auto=format&fit=crop"
             alt=""
+            fill
+            sizes="44px"
+            style={{ objectFit: "cover" }}
           />
         </div>
         <div>
