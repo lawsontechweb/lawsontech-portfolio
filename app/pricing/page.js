@@ -89,7 +89,7 @@ export default function Pricing() {
             </ul>
             <div className="best-for">
               <div className="label">Note</div>
-              <p style={{ fontSize: "0.88rem", color: "var(--muted)" }}>Custom quote required — every Premium project is scoped individually.</p>
+              <p style={{ fontSize: "0.88rem", color: "var(--muted)" }}>Custom quote required. Every Premium project is scoped individually.</p>
             </div>
           </div>
         </div>
