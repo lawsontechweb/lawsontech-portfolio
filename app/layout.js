@@ -21,11 +21,29 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: "LawsonTech | Web Design for Local Businesses",
+  title: {
+    default: "LawsonTech | Web Design for Local Businesses",
+    template: "%s | LawsonTech",
+  },
   description:
-    "Fast, mobile-first websites for local businesses — built by a Business Analytics student who also sets up the tracking to show what's working.",
+    "Fast, mobile-first websites for local businesses, built by a Business Analytics student who tracks what's working.",
+  metadataBase: new URL("https://lawsontech-portfolio.vercel.app"),
   verification: {
     google: "l0SiT4I-TE6KczfH7Ed8gT8AFbksjU7l-nMW_rj_Ccw",
+  },
+  openGraph: {
+    title: "LawsonTech | Web Design for Local Businesses",
+    description:
+      "Fast, mobile-first websites for local businesses, built by a Business Analytics student who tracks what's working.",
+    siteName: "LawsonTech",
+    type: "website",
+    url: "https://lawsontech-portfolio.vercel.app",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "LawsonTech | Web Design for Local Businesses",
+    description:
+      "Fast, mobile-first websites for local businesses, built by a Business Analytics student who tracks what's working.",
   },
 };
 
