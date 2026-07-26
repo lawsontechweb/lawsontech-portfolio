@@ -10,16 +10,16 @@ export default function About() {
   return (
     <section className="section-tint-teal">
       <div className="wrap about-grid">
-        <div className="about-photo">
-          <Image
-            src="/images/about-photo.jpg"
-            alt="Adriana Lawson, founder of LawsonTech"
-            width={400}
-            height={500}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            priority
-          />
-        </div>
+        <div className="about-photo" style={{ position: "relative" }}>
+  <Image
+    src="/images/about-photo.jpg"
+    alt="Adriana Lawson, founder of LawsonTech"
+    fill
+    sizes="(max-width: 860px) 100vw, 400px"
+    style={{ objectFit: "cover" }}
+    priority
+  />
+</div>
         <div>
           <div className="eyebrow">About LawsonTech</div>
           <h2 style={{ fontSize: "2rem", marginBottom: 18 }}>
