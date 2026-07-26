@@ -12,7 +12,7 @@ export default function ContactForm() {
     const form = e.target;
     const formData = new FormData(form);
     formData.append("access_key", "429c9d2b-9028-4822-83bf-98b62da66fa9");
-    formData.append("subject", "New Site Audit Request — LawsonTech");
+    formData.append("subject", "New Site Audit Request - LawsonTech");
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -34,6 +34,13 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
+      <input
+        type="checkbox"
+        name="botcheck"
+        style={{ display: "none" }}
+        tabIndex="-1"
+        autoComplete="off"
+      />
       <div className="form-row">
         <label htmlFor="name">Name</label>
         <input id="name" name="name" type="text" required />
