@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         <footer>
           <div className="wrap footer-inner">
             <div className="footer-links">
- <a href="mailto:adrianalaws28@gmail.com">adrianalaws28@gmail.com</a>
+ <span>adrianalaws28@gmail.com</span>
 <a href="https://github.com/lawsontechweb" target="_blank" rel="noreferrer">GitHub</a>
   <a href="https://www.linkedin.com/in/adriana-lawson-456638344/" target="_blank" rel="noreferrer">Find me on LinkedIn</a>
 </div>
