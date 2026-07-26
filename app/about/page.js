@@ -14,7 +14,7 @@ export default function About() {
           <div
             style={{
               position: "relative",
-              width: "220px",
+              width: "320px",
               aspectRatio: "4 / 5",
               borderRadius: "8px",
               overflow: "hidden",
@@ -31,8 +31,8 @@ export default function About() {
             />
           </div>
 
-          <div className="about-photo">
-            <svg viewBox="0 0 200 250" width="80%" height="80%">
+          <div className="about-photo" style={{ maxWidth: "180px", margin: "0 auto" }}>
+  <svg viewBox="0 0 200 250" width="70%" height="70%">
               <g transform="translate(100,75)">
                 <line x1="0" y1="-10" x2="0" y2="-50" stroke="#ff5da2" strokeWidth="1.3" opacity="0.75" transform="rotate(0)" />
                 <circle cx="0" cy="-50" r="2" fill="#ff5da2" opacity="0.85" transform="rotate(0)" />
