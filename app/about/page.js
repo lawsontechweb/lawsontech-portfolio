@@ -104,10 +104,9 @@ export default function About() {
   sites for small businesses skip entirely.
 </p>
           <p style={{ color: "var(--muted)", marginBottom: 16 }}>
-  That combination, design plus the analytics side, is why we
-  don&rsquo;t just hand off a site and disappear. We set up the
-  tracking, and we can tell you in plain language what it&rsquo;s
-  showing.
+  That&rsquo;s why we don&rsquo;t just hand off a site and disappear.
+  We set up the tracking, and we can tell you in plain language what
+  it&rsquo;s showing.
 </p>
           <div className="skill-tags">
             <span className="skill-tag">Python</span>
