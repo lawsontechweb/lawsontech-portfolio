@@ -59,7 +59,7 @@ export default function RootLayout({ children }) {
           <div className="wrap footer-inner">
             <div className="footer-links">
  <a href="mailto:adrianalaws28@gmail.com">adrianalaws28@gmail.com</a>
-  <a href="https://github.com/lawsontech" target="_blank" rel="noreferrer">GitHub</a>
+<a href="https://github.com/lawsontechweb" target="_blank" rel="noreferrer">GitHub</a>
   <a href="https://www.linkedin.com/in/adriana-lawson-456638344/" target="_blank" rel="noreferrer">Find me on LinkedIn</a>
 </div>
             <div className="footer-copy">&copy; 2026 LawsonTech. Built with Next.js.</div>

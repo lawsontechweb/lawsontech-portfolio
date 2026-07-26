@@ -23,7 +23,7 @@ export default function Contact() {
 </div>
             <div className="info-row">
               <div className="label">GitHub</div>
-              <div className="value">github.com/lawsontech</div>
+              <div className="value">github.com/lawsontechweb</div>
             </div>
             <div className="info-row">
               <div className="label">Response Time</div>
