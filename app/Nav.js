@@ -19,9 +19,27 @@ export default function Nav() {
   return (
     <header>
       <div className="wrap nav">
-        <Link href="/" className="brand">
-          Lawson<span className="brand-dot">Tech</span>
-        </Link>
+       <Link href="/" className="brand" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+  Lawson<span className="brand-dot">Tech</span>
+  <span
+    style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      width: 24,
+      height: 24,
+      borderRadius: 5,
+      background: "#1a2440",
+      color: "#ffffff",
+      fontFamily: "var(--font-display)",
+      fontWeight: 700,
+      fontSize: "0.85rem",
+      flexShrink: 0,
+    }}
+  >
+    L
+  </span>
+</Link>
         <nav className={open ? "nav-links open" : "nav-links"}>
           {links.map((l) => (
             <Link
