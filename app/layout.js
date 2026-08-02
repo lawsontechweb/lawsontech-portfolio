@@ -61,6 +61,8 @@ export default function RootLayout({ children }) {
  <span>adrianalaws28@gmail.com</span>
 <a href="https://github.com/lawsontechweb" target="_blank" rel="noreferrer">GitHub</a>
   <a href="https://www.linkedin.com/in/adriana-lawson-456638344/" target="_blank" rel="noreferrer">Find me on LinkedIn</a>
+  <a href="/privacy">Privacy Policy</a>
+  <a href="/terms">Terms of Service</a>
 </div>
             <div className="footer-copy">&copy; 2026 LawsonTech. Built with Next.js.</div>
           </div>
