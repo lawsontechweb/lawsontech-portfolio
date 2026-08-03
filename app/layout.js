@@ -1,6 +1,7 @@
 import { Space_Grotesk, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Nav from "./Nav";
+import { Analytics } from "@vercel/analytics/react";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -55,6 +56,7 @@ export default function RootLayout({ children }) {
       >
         <Nav />
         <main>{children}</main>
+        <Analytics />
         <footer>
           <div className="wrap footer-inner">
             <div className="footer-links">
