@@ -23,12 +23,13 @@ export default function Work() {
             <div>
               <div className="case-thumb thumb-landscaping">
                 <Image
-                  src="https://images.unsplash.com/photo-1592595896616-c37162298647?fm=jpg&q=70&w=1200&auto=format&fit=crop"
-                  alt="Rooted Grounds Landscaping site preview"
-                  fill
-                  sizes="(max-width: 860px) 100vw, 50vw"
-                  style={{ objectFit: "cover" }}
-                />
+  src="https://images.unsplash.com/photo-1592595896616-c37162298647?fm=jpg&q=70&w=1200&auto=format&fit=crop"
+  alt="Rooted Grounds Landscaping site preview"
+  width={800}
+  height={600}
+  style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0 }}
+  sizes="(max-width: 860px) 100vw, 50vw"
+/>
               </div>
               <div className="case-meta">
                 <span className="mono">Industry: Landscaping / Contractor</span>
@@ -60,13 +61,14 @@ export default function Work() {
           <div className="case-grid">
             <div>
               <div className="case-thumb thumb-cafe">
-                <Image
-                  src="https://images.unsplash.com/photo-1775059956734-78ffd2075cec?fm=jpg&q=70&w=1200&auto=format&fit=crop"
-                  alt="Café Marlow site preview"
-                  fill
-                  sizes="(max-width: 860px) 100vw, 50vw"
-                  style={{ objectFit: "cover" }}
-                />
+               <Image
+  src="https://images.unsplash.com/photo-1775059956734-78ffd2075cec?fm=jpg&q=70&w=1200&auto=format&fit=crop"
+  alt="Café Marlow site preview"
+  width={800}
+  height={600}
+  style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute", inset: 0 }}
+  sizes="(max-width: 860px) 100vw, 50vw"
+/>
               </div>
               <div className="case-meta">
                 <span className="mono">Industry: Restaurant / Café</span>
